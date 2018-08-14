@@ -33,7 +33,7 @@ public class Main {
         MS30.printGroup();
         MS30.toSerialize(MS30);
         MV25.toSerialize(MV25);
-        MV25.toDeserialize(MV25);
+        MV25.toDeserialize();
         
     }
     
