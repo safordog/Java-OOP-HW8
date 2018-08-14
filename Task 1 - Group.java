@@ -73,7 +73,7 @@ public class Group implements Serializable {
         }
     }
     
-    public void toDeserialize(Group group) {
+    public void toDeserialize() {
         Group temp = null;
         try (ObjectInputStream OIS = new ObjectInputStream(new FileInputStream("group" + this.grName))) {
             temp = (Group)OIS.readObject();
