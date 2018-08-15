@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Используя стандартный методы сериализации создайте мини-базу
+ * данных для работы с группами студентов (возможность записи и чтения
+ * базы из файла по запросу пользователя).
  */
 package home.work8b;
 
